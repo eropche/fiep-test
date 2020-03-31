@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <phpunit bootstrap="vendor/autoload.php">
-    <testsuite name="Validate">
+    <testsuite name="Validator">
         <directory suffix="Test.php">
-            ./tests/Classes
+            ./tests
         </directory>
     </testsuite>
 </phpunit>

@@ -1,20 +1,14 @@
 {
-    "name": "wooden/feip",
+    "name": "eropche/feip",
     "description": "feip test",
     "type": "library",
     "require": {
         "phpunit/phpunit": "^7.5",
         "ext-json": "*"
     },
-    "authors": [
-        {
-            "name": "WoodenArow",
-            "email": "woodenarow@gmail.com"
-        }
-    ],
     "autoload": {
-        "classmap": [
-            "src/classes/Validate.php"
-        ]
+        "psr-4": {
+            "App\\": "src"
+        }
     }
 }
